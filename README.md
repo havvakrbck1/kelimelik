@@ -1,25 +1,21 @@
 
 ---
-
-## 3️⃣ `kelimelik/README.md`
-
 ```markdown
-# 🧩 kelimelik
+# Word Game
 
-Bu proje, kelime tahmini üzerine kurulu küçük bir oyun uygulamasıdır. Belirli harflerle kelime türetme mantığına dayanır.
+A command-line word game where players guess the correct word based on hints.
 
-## 🎮 Oyun Mantığı
-- Harfler rastgele verilir.
-- Kullanıcıdan bu harflerle geçerli kelimeler bulması istenir.
-- Puanlama sistemi içerir.
+## Features
+- Multiple difficulty levels
+- Hint system
+- Score tracking
 
-## 🚀 Kullanılan Teknolojiler
-- Python
-- Tkinter (görsel arayüz için)
+## Technologies Used
+- Python 3
 
-## ⚙️ Kurulum
+## Installation
 
 ```bash
-git clone https://github.com/havvakrbck1/kelimelik.git
-cd kelimelik
-python kelimelik.py
+git clone https://github.com/havvakrbck1/word-game.git
+cd word-game
+python game.py
